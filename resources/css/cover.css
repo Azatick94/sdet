@@ -40,7 +40,7 @@
 --------------------------------------------------------------*/
 
 #introduction h1 {
-    margin-top: 8%;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -62,6 +62,10 @@
 
 .about-text-bold {
     font-weight: bold;
+}
+
+.about-text-italic {
+    font-style: italic;
 }
 
 .social-links a i:hover {
