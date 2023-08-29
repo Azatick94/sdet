@@ -10,7 +10,7 @@ function date_diff_calc(d1, d2) {
     let d1M = d1.getMonth();
     let d2M = d2.getMonth();
 
-    let total_months = (d2M + 12 * d2Y) - (d1M + 12 * d1Y);
+    let total_months = (d2M + 12 * d2Y) - (d1M + 12 * d1Y) + 1;
 
     let years = Math.floor(total_months / 12)
     let months = total_months - years * 12;
